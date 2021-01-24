@@ -1,0 +1,139 @@
+.column-last {
+  flex: 33.33%;
+  padding: 5px;
+}
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+.bg {
+  /* The image used */
+  background-image: url("gcptdcc.jpg");
+  margin:150px;
+  /* Full height */
+  height: 100%;
+  width:100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+    display:flex;
+    flex-wrap:row wrap
+  overflow: hidden;
+  background-color: #ffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #00000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+body{
+     overflow-x: hidden
+     margin:0:
+     max-width: 100%;
+     padding:5;
+     line-height:1.5em;
+     font_family:'Open Sans', sans-serif;
+
+   }
+   #header{
+
+   background:white;
+   height:150px;
+   text-align: center
+   }
+   #footer {
+
+    width="100%;
+    background:#ffffff
+    clear:left;
+    text-align:left;
+    padding:5px;
+    font-family:Verdana,Geneva, sans-serif;
+    colour:white
+   }
+   #buttons {
+    background-color: rgb(52, 109, 241);
+    border-radius: 2px;
+   ul
+  {
+
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   background-color:white;
+  }
+  li{
+
+  float:left;
+  }
+  li:last-child{
+
+    border-right:none;
+
+  }
+  li a{
+
+  display:block;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+
+  }
+.blue-text {
+     color:rgb(253, 135, 204);
+}
+
+.note
+{
+    color: rgb(64, 64, 64);
+    font-family: 'Open Sans', sans-serif;
+}
